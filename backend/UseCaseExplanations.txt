@@ -1,0 +1,16 @@
+📌 Use Case Explanations
+
+1. Credit Default Prediction
+Simulate whether a customer starting in state G (Good) is likely to move into F (Default) within 6 or 12 months.
+
+2. Portfolio Risk Analysis
+Upload a file of 1000 customers. Run simulation. Instantly see how many will likely default. Used by risk analysts.
+
+3. Loan Approval Strategy
+Use the API to test if a "D" state customer is too risky. If many D-state customers end in F → deny or increase interest.
+
+4. Data Science Preprocessing
+Use simulation outputs to generate training labels (e.g., finalState) for machine learning fraud or credit scoring models.
+
+5. Report Automation
+Hook into a weekly process: upload current loan customer states, simulate 6-month forecast, output dashboard & CSV.
